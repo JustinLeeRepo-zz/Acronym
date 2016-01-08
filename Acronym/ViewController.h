@@ -7,11 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ResultViewController.h"
 
-@class MBProgressHUD;
+@interface ViewController : UIViewController
 
-@interface ViewController : UIViewController {
-	MBProgressHUD *HUD;
-}
+@property (strong, nonatomic) ResultViewController *resultViewController;
 
 @end
